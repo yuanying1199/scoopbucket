@@ -1,0 +1,32 @@
+{
+    "homepage": "http://iscute.me/chfs",
+    "version": "0.3",
+    "architecture": {
+        "64bit": {
+            "url": "http://iscute.me/tar/chfs/0.3/chfs-windows-x64-0.3.zip",
+            "hash": "3cd39928d97f1056a3a5d85d5d31f25430e1acfc05a3df92758319fd0a27431e"
+        },
+        "32bit": {
+            "url": "http://iscute.me/tar/chfs/0.3/chfs-windows-x86-0.3.zip",
+            "hash": "f4175dec1dd90f4f2182528005280d99164bdace745f1cfcd91f7e54ecc18319"
+        }
+    },
+    "extract_dir": "",
+    "bin": [
+        "chfs.exe"
+    ],
+    "checkver": {
+        "url": "http://iscute.me/chfs/",
+        "re": "chfs-windows-x64-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://iscute.me/tar/chfs/$version/chfs-windows-x64-$version.zip"
+            },
+            "32bit": {
+                "url": "http://iscute.me/tar/chfs/$version/chfs-windows-x86-$version.zip"
+            }
+        }
+    }
+}
