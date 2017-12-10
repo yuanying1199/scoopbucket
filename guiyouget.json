@@ -1,0 +1,24 @@
+{
+    "homepage": "https://github.com/ingbyr/GUI-YouGet",
+    "version": "0.2.1",
+    "license": "MIT",
+    "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v0.2.1/GUI-YouGet-0.2.1.zip",
+    "hash": "188274b2fc788b3f44862b0ec95f21d3e5372ba3e5856a74f5dd7b262e57f311",
+    "extract_dir": "",
+    "bin": [
+        ""
+    ],
+    "shortcuts": [
+        [
+            "GUI-YouGet.exe",
+            "GUI-YouGet"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ingbyr/GUI-YouGet"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v$version/GUI-YouGet-$version.zip",
+        "extract_dir": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "homepage": "http://www.phonerlite.de/download_en.htm",
+    "version": "2.56",
+    "url": "http://www.phoner.de/PhonerLite.zip",
+    "hash": "e22583465c98b6d59b2fb87fff91c9460c14ecc30f6b0824535e96adfeddacdc",
+    "extract_dir": "",
+    "bin": [
+        ""
+    ],
+    "shortcuts": [
+        [
+            "PhonerLite.exe",
+            "PhonrrLite"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.phonerlite.de/download_en.htm",
+        "re": "<td>([\\d.]+)</td>"
+    },
+    "autoupdate": {
+        "url": "http://www.phoner.de/PhonerLite.zip"
+    }
+}
