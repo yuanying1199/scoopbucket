@@ -1,0 +1,12 @@
+{
+    "homepage": "http://www.portablesoft.org/cajviewer-lite/",
+    "version": "7.2",
+    "url": "https://github.com/yuanying1199/learngit/raw/master/CAJViewerLite.7z",
+    "extract_dir": "CAJViewerLite",
+    "shortcuts": [
+        [
+            "CAJVieweru.exe",
+            "CAJViewer"
+        ]
+    ]
+}

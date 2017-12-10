@@ -1,0 +1,12 @@
+{
+    "homepage": "http://www.zdfans.com/2107.html",
+    "version": "4.2.3",
+    "url": "https://github.com/yuanying1199/learngit/raw/master/BCompare4.7z",
+    "extract_dir": "BCompare4",
+    "shortcuts": [
+        [
+            "BCompare.exe",
+            "BCompare"
+        ]
+    ]
+}
