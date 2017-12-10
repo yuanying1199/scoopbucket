@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/shadowsocks/shadowsocks-qt5",
+    "version": "2.9.0",
+    "license": "GPL3",
+    "url": "https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v2.9.0/ss-qt5-v2.9.0-win64.7z",
+    "hash": "2c95f731b163c8cff02f03017c6e7f0db414899ff8b08ef8ddeb6570be0d679f",
+    "extract_dir": "",
+    "bin": [
+        [
+            "ss-qt5.exe",
+            "ssqt5"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ss-qt5.exe",
+            "ss-qt5"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/shadowsocks/shadowsocks-qt5"
+    },
+    "autoupdate": {
+        "url": "https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v$version/ss-qt5-v$version-win64.7z"
+    }
+}

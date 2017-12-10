@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/shadowsocksr-backup/shadowsocksr-csharp",
+    "version": "4.7.0",
+    "license": "GPL3",
+    "url": "https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases/download/4.7.0/ShadowsocksR-4.7.0-win.7z",
+    "hash": "481a20d24e0e0f4d8b4a872cd82650a7a2721e699416bc0a43351cffd1b27fa6",
+    "extract_dir": "",
+    "bin": [
+        [
+            "ShadowsocksR-dotnet4.0.exe",
+            "ssr"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ShadowsocksR-dotnet4.0.exe",
+            "SSR"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/shadowsocksr-backup/shadowsocksr-csharp"
+    },
+    "autoupdate": {
+        "url": "https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases/download/$version/ShadowsocksR-$version-win.7z",
+        "extract_dir": ""
+    }
+}
