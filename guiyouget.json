@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/ingbyr/GUI-YouGet",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "license": "MIT",
-    "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v0.2.1/GUI-YouGet-0.2.1.zip",
-    "hash": "188274b2fc788b3f44862b0ec95f21d3e5372ba3e5856a74f5dd7b262e57f311",
+    "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v0.2.3/GUI-YouGet-NEEDJRE-0.2.3.zip",
+    "hash": "0ecafa6d4554e8f2ebf244243e987c727b38fcd094fe21f132efbe7398386677",
     "extract_dir": "",
     "bin": [
         ""
@@ -18,7 +18,7 @@
         "github": "https://github.com/ingbyr/GUI-YouGet"
     },
     "autoupdate": {
-        "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v$version/GUI-YouGet-$version.zip",
+        "url": "https://github.com/ingbyr/GUI-YouGet/releases/download/v$version/GUI-YouGet-NEEDJRE-$version.zip",
         "extract_dir": ""
     }
 }
