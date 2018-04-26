@@ -1,15 +1,15 @@
 {
     "homepage": "https://sourceforge.net/projects/goldendict/",
-    "version": "1.5.0-RC2-209-gfe9312e",
+    "version": "1.5.0-RC2-254-gbd95948_(QT_563)",
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/goldendict/files/early access builds/Qt5-based/64bit/GoldenDict-1.5.0-RC2-209-gfe9312e_(QT_563)(64bit).7z",
-            "hash": "sha1:07269add41482212d1e44c96aef2ab89ba653236"
+            "url": "https://sourceforge.net/projects/goldendict/files/early access builds/Qt5-based/64bit/GoldenDict-1.5.0-RC2-254-gbd95948_(QT_563)(64bit).7z",
+            "hash": "sha1:70a44a39c953ef89c77b12640f4f37417560f387"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/goldendict/files/early access builds/Qt5-based/GoldenDict-1.5.0-RC2-209-gfe9312e_(QT_563).7z",
-            "hash": "sha1:48f54b7badde8680bb5def078b09949280572a61"
+            "url": "https://sourceforge.net/projects/goldendict/files/early access builds/Qt5-based/GoldenDict-1.5.0-RC2-254-gbd95948_(QT_563).7z",
+            "hash": "sha1:f25b630a6378bb3691f6732e3d45805ad783595d"
         }
     },
     "extract_dir": "GoldenDict",
