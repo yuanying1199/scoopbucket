@@ -4,13 +4,20 @@
     "url": "http://www.phoner.de/PhonerLite.zip",
     "hash": "bb89896863870330195295dffb8698ce3a337a75255a726004c31ae31f43f3ef",
     "extract_dir": "",
+    "persist": [
+        "sipper.ini",
+        "PhonerLite.ini",
+        "logbook.csv",
+        "provider.ini",
+        "settings.ini"
+    ],
     "bin": [
         ""
     ],
     "shortcuts": [
         [
             "PhonerLite.exe",
-            "PhonrrLite"
+            "PhonerLite"
         ]
     ],
     "checkver": {
