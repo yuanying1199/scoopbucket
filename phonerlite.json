@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.phonerlite.de/download_en.htm",
-    "version": "2.56",
+    "version": "2.62",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "e22583465c98b6d59b2fb87fff91c9460c14ecc30f6b0824535e96adfeddacdc",
+    "hash": "bb89896863870330195295dffb8698ce3a337a75255a726004c31ae31f43f3ef",
     "extract_dir": "",
     "bin": [
         ""
