@@ -1,0 +1,31 @@
+{
+    "homepage": "http://sdcc.sourceforge.net/",
+    "version": "3.6.0",
+    "license": "GPL",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.6.0/sdcc-3.6.0-x64-setup.exe#/dl.7z",
+            "hash": "sha1:c49663902b9bed1e2e42ebb50cd5643dee2d31b1"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/3.6.0/sdcc-3.6.0-setup.exe#/dl.7z",
+            "hash": "sha1:110a7370c03744587db5b0f6174343a454fe5144"
+        }
+    },
+    "env_add_path": "bin",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/sdcc/rss?path=/sdcc-win64/",
+        "re": "/sdcc-win64/(.*?)/sdcc"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/$version/sdcc-$version-x64-setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/$version/sdcc-$version-setup.exe#/dl.7z"
+            }
+        }
+    }
+}

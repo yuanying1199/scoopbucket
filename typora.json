@@ -1,0 +1,38 @@
+{
+    "homepage": "https://typora.io",
+    "version": "0.9.48",
+    "architecture": {
+        "64bit": {
+            "url": "https://typora.io/windows/typora-setup-x64.exe",
+            "hash": "33b5cc178f24f44567f8d7155d2eb60776db3d005fdc5edaad36267e66bec8d0"
+        },
+        "32bit": {
+            "url": "https://typora.io/windows/typora-setup-ia32.exe",
+            "hash": "89bcb1e284666a06f6a72a55f44a02d0381b2c5da12bea6626e5db73f83cf30a"
+        }
+    },
+    "innosetup": true,
+    "bin": [
+        "Typora.exe"
+    ],
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ],
+    "checkver": {
+        "url": "https://typora.io/windows/dev_release.html",
+        "re": "<h4>([\\d.]+) \\(beta\\)</h4>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://typora.io/windows/typora-setup-x64.exe"
+            },
+            "32bit": {
+                "url": "https://typora.io/windows/typora-setup-ia32.exe"
+            }
+        }
+    }
+}
