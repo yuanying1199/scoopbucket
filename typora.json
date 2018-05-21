@@ -1,14 +1,14 @@
 {
     "homepage": "https://typora.io",
-    "version": "0.9.48",
+    "version": "0.9.49",
     "architecture": {
         "64bit": {
             "url": "https://typora.io/windows/typora-setup-x64.exe",
-            "hash": "33b5cc178f24f44567f8d7155d2eb60776db3d005fdc5edaad36267e66bec8d0"
+            "hash": "648b7ac3ef0f8201db93a5fd91e49dd16a4499ffb2463aacc5af6d14e9cc2ede"
         },
         "32bit": {
             "url": "https://typora.io/windows/typora-setup-ia32.exe",
-            "hash": "89bcb1e284666a06f6a72a55f44a02d0381b2c5da12bea6626e5db73f83cf30a"
+            "hash": "2d65401fb17055a42015775b97bbb291b9a818e175e00dce5a73c68b6ce0449a"
         }
     },
     "innosetup": true,
