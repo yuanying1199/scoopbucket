@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/JabRef/jabref",
-    "version": "4.1",
+    "version": "4.2",
     "license": "MIT",
-    "url": "https://github.com/JabRef/jabref/releases/download/v4.1/JabRef-4.1.jar",
-    "hash": "48761690dc024ec56864fb4b1a43687e1fcddd18babb0c9037a54e6a021b4db9",
+    "url": "https://github.com/JabRef/jabref/releases/download/v4.2/JabRef-4.2.jar",
+    "hash": "0675aaad51edbf794958c7c744f5ed5a18448115549c6069060d41a1f8098ceb",
     "bin": [
         ""
     ],
