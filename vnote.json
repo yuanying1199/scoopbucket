@@ -1,16 +1,16 @@
 {
     "homepage": "https://tamlok.github.io/vnote",
-    "version": "1.15",
+    "version": "1.16",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "hash": "ee7b2842329a3cb830e5acda94eb3283c9bee0b66fa660e90c8b48561b99ecc8",
-            "url": "https://github.com/tamlok/vnote/releases/download/v1.15/VNote_win_X64_portable_1.15.zip",
+            "hash": "1a2d8845c9c77bb98ceaa5ea633d93cfc8f473aeefec680e87e3f1b0535616f1",
+            "url": "https://github.com/tamlok/vnote/releases/download/v1.16/VNote_win_X64_portable_1.16.zip",
             "extract_dir": "VNote"
         },
         "64bit": {
-            "hash": "b35da0cc20e11791ae7fa8ecbd4e6eb2f8e893552e8af7052549d8245e788cb5",
-            "url": "https://github.com/tamlok/vnote/releases/download/v1.15/VNote_win_x86_portable_1.15.zip",
+            "hash": "8eb327bd12be24024dcfaf3ec9d1ca524f9f80278c4e66f1ce49dced41d9d646",
+            "url": "https://github.com/tamlok/vnote/releases/download/v1.16/VNote_win_x86_portable_1.16.zip",
             "extract_dir": "VNote"
         }
     },
