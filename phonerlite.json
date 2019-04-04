@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.phonerlite.de/download_en.htm",
-    "version": "2.70",
+    "version": "2.71",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "5e0b6aa6ea7a3528d303359c9ec5c33e666812d9c621f7beebdedb5328c03cc0",
+    "hash": "18189c34f8ef4bcadb94a96aae8e6e5da97ade060d43f9d0eed78de316cd9001",
     "extract_dir": "",
     "persist": [
         "sipper.ini",
