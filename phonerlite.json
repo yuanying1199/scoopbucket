@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.phonerlite.de/download_en.htm",
-    "version": "2.62",
+    "version": "2.70",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "bb89896863870330195295dffb8698ce3a337a75255a726004c31ae31f43f3ef",
+    "hash": "5e0b6aa6ea7a3528d303359c9ec5c33e666812d9c621f7beebdedb5328c03cc0",
     "extract_dir": "",
     "persist": [
         "sipper.ini",
@@ -11,9 +11,7 @@
         "provider.ini",
         "settings.ini"
     ],
-    "bin": [
-        ""
-    ],
+    "bin": "",
     "shortcuts": [
         [
             "PhonerLite.exe",
