@@ -16,9 +16,9 @@
     ],
     "checkver": {
         "url": "https://ivarptr.github.io/yu-writer.site/",
-        "re": "Yu Writer Beta ([\\d.]+)"
+        "re": "yu-writer-beta-([\\d.]+)-macos"
     },
     "autoupdate": {
-        "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows.zip"
+        "url": "https://github.com/ivarptr/yu-writer.site/releases/download/v$version/yu-writer-beta-$version-windows-x64.zip"
     }
 }
