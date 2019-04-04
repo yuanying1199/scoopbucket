@@ -1,15 +1,15 @@
 {
     "homepage": "http://sdcc.sourceforge.net/",
-    "version": "3.6.0",
+    "version": "3.8.0",
     "license": "GPL",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.6.0/sdcc-3.6.0-x64-setup.exe#/dl.7z",
-            "hash": "sha1:c49663902b9bed1e2e42ebb50cd5643dee2d31b1"
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.8.0/sdcc-3.8.0-x64-setup.exe#/dl.7z",
+            "hash": "sha1:7389e11d8fa404427d3aa6ee994258d13e7d3b8c"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/3.6.0/sdcc-3.6.0-setup.exe#/dl.7z",
-            "hash": "sha1:110a7370c03744587db5b0f6174343a454fe5144"
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/3.8.0/sdcc-3.8.0-setup.exe#/dl.7z",
+            "hash": "sha1:3fd994111544b416e52d32e29af1230d00788da6"
         }
     },
     "env_add_path": "bin",
