@@ -17,7 +17,7 @@
     "bin": [
         [
             "BaiduPCS-Go.exe",
-            "BaiduPCS.exe"
+            "BaiduPCS"
         ]
     ],
     "checkver": {
