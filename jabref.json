@@ -1,13 +1,14 @@
 {
     "homepage": "https://github.com/JabRef/jabref",
-    "version": "4.3.1",
+    "version": "5.0",
     "license": "MIT",
-    "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef-4.3.1.jar",
-    "hash": "5b52ee079c430a59d99006a644bba3d191c21d1ec9e6bae5c87493ad74ccc395",
+    "url": "https://github.com/JabRef/jabref/releases/download/v5.0/JabRef-5.0-portable_windows.zip",
+    "extract_dir": "JabRef",
+    "hash": "4f410840f7821e25a09a5d1fa6408045df27bc4bcd8684fd8ab273b4933c08b7",
     "bin": "",
     "shortcuts": [
         [
-            "JabRef.jar",
+            "JabRef.exe",
             "JabRef"
         ]
     ],
@@ -15,6 +16,6 @@
         "github": "https://github.com/JabRef/jabref"
     },
     "autoupdate": {
-        "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef-$version.jar"
+        "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef-$version-portable_windows.zip"
     }
 }
