@@ -3,13 +3,22 @@
     "version": "2.77",
     "description": "VoIP softphone",
     "url": "http://www.phoner.de/PhonerLite.zip",
+    "hash": "f89299b21fe1c4f24dfcbf430dcceb20c177a007079c6eccf2f722cceb821e5d",
     "extract_dir": "",
+    "pre_install": [
+        "function CreateFile ($name, $value = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        Set-Content \"$dir\\$name\" $value -Encoding Ascii",
+        "    }",
+        "}",
+        "'sipper.ini', 'PhonerLite.ini', 'settings.ini', 'logbook.csv' | ForEach-Object { CreateFile $_ }"
+    ],
     "persist": [
+        "provider.ini",
         "sipper.ini",
         "PhonerLite.ini",
-        "logbook.csv",
-        "provider.ini",
-        "settings.ini"
+        "settings.ini",
+        "logbook.csv"
     ],
     "bin": "",
     "shortcuts": [

@@ -18,7 +18,8 @@
         "profiles",
         "generate.ini",
         "gistconf.ini",
-        "pref.ini"
+        "pref.ini",
+        "pref-new.yml"
     ],
     "bin": [
         [
