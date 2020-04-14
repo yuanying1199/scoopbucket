@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows/",
+    "description": "ShadowsocksR-Windows Client by HMBSbige",
+    "version": "5.1.8.6",
+    "license": "MIT",
+    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.8.6/ShadowsocksR-net48-5.1.8.6.zip",
+    "hash": "1E0D144AFC1357547154286AD0ACCF0DB7F05DBEE840E032F2E88332CC3930FE",
+    "persist": [
+        "gui-config.json",
+        "user-rule.txt"
+    ],
+    "bin": "",
+    "shortcuts": [
+        [
+            "ShadowsocksR.exe",
+            "SSR"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-net48-$versoin.zip",
+        "hash": {
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
+            "find": "$basename[\\S\\s]+?$sha256"
+        }
+    }
+}

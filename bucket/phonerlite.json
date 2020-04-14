@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.phonerlite.de/download_en.htm",
     "version": "2.77",
+    "description": "VoIP softphone",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "53f80204142aeac73bbb7dc2ffc57ec4c2a300d3658d590638bfb56f7c5e8e4e",
     "extract_dir": "",
     "persist": [
         "sipper.ini",

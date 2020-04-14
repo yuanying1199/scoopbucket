@@ -1,0 +1,48 @@
+{
+    "homepage": "https://github.com/lzdnico/ClashWeb/",
+    "description": "Another clash gui for windows",
+    "version": "1.6.3",
+    "license": "GPL-3.0",
+    "url": "https://github.com/lzdnico/ClashWeb/releases/download/ClashWeb1.6.3/ClashWebRelease1.6.3.7z",
+    "hash": "ba273753e6235adddbe2338a9608d03217446280170e2d00b6ad474fec04f413",
+    "extract_dir": "ClashWebRelease1.6.3",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Remove-Item \"$dir\\App\\clash-win64.exe\"",
+                "Remove-Item \"$dir\\App\\clash-win64-32.exe\"",
+                "Remove-Item \"$dir\\App\\clash-win64-32-ssr.exe\"",
+                "Move-Item \"$dir\\App\\clash-win64-ssr.exe\" \"$dir\\App\\clash-win64.exe\""
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Remove-Item \"$dir\\App\\clash-win64.exe\"",
+                "Remove-Item \"$dir\\App\\clash-win64-32.exe\"",
+                "Remove-Item \"$dir\\App\\clash-win64-ssr.exe\"",
+                "Move-Item \"$dir\\App\\clash-win64-32-ssr.exe\" \"$dir\\App\\clash-win64.exe\""
+            ]
+        }
+    },
+    "persist": "Profile",
+    "bin": [
+        [
+            "ClashWeb.exe",
+            "clashweb"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ClashWeb.exe",
+            "ClashWeb"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/lzdnico/ClashWeb/releases/latest/",
+        "re": ">ClashWebRelease([\\d.]+)\\.7z"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lzdnico/ClashWeb/releases/download/ClashWeb$version/ClashWebRelease$version.7z",
+        "extract_dir": "ClashWebRelease$version"
+    }
+}
