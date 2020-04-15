@@ -1,0 +1,45 @@
+{
+    "homepage": "https://github.com/libgenapps/LibgenDesktop/",
+    "description": "Libgen Desktop",
+    "version": "1.3.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.64-bit.zip",
+            "hash": "E9B236CD6C11D4ED5D601DDEA108830B1AB466F6CCD77DF756A80C5167BAA7B2"
+        },
+        "32bit": {
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.32-bit.zip",
+            "hash": "DE616772E83D85457C6CE46E434124102D11C02A0C12EEEE6802B21DAD6EBBBD"
+        }
+    },
+    "extract_dir": "",
+    "pre_install": [
+        "function CreateFile ($name, $value = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        Set-Content \"$dir\\$name\" $value -Encoding Ascii",
+        "    }",
+        "}",
+        "CreateFile 'libgen.config' '{}' "
+    ],
+    "persist": [
+        "libgen.config"
+    ],
+    "bin": "",
+    "shortcuts": [
+        [
+            "LibgenDesktop.exe",
+            "LibgenDesktop"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/$version/LibgenDesktop.Portable.64-bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/$version/LibgenDesktop.Portable.32-bit.zip"
+            }
+        }
+    }
+}
