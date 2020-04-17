@@ -1,5 +1,6 @@
 {
     "homepage": "http://sdcc.sourceforge.net/",
+    "description": "Small Device C Compiler",
     "version": "4.0.0",
     "license": "GPL",
     "architecture": {
@@ -16,7 +17,7 @@
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "checkver": {
         "url": "https://sourceforge.net/projects/sdcc/rss?path=/sdcc-win64/",
-        "re": "/sdcc-win64/(.*?)/sdcc"
+        "re": "/sdcc-win64/([\\d.]+)/sdcc"
     },
     "autoupdate": {
         "architecture": {
