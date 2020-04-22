@@ -1,15 +1,15 @@
 {
-    "homepage": "https://github.com/BoyceLig/ClashR.For.Windows/",
+    "homepage": "https://github.com/BoyceLig/ClashR_for_Windows/",
     "description": "ClashR.For.Windows",
-    "version": "0.9.5_0.19.0.2",
+    "version": "0.9.6_0.19.0.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BoyceLig/ClashR.For.Windows/releases/download/0.9.5_0.19.0.2/ClashR.For.Windows.English.rar",
-            "hash": "3CD64A42AF63B13796D3E5A119D425EC0F095B8DAC3BE3951E7258EB2FB713F1"
+            "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/0.9.6_0.19.0.2/ClashR.for.Windows-0.9.6_0.19.0.2-English.7z",
+            "hash": "74FB25CAEF5D033C1DD7C4B0D44FE07FF2CF9BA1FF4D74C29AA332B2244BE977"
         }
     },
-    "extract_dir": "ClashR.For.Windows",
+    "extract_dir": "",
     "persist": [
         "resources/static/files/profiles"
     ],
@@ -21,13 +21,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/BoyceLig/ClashR.For.Windows/releases/latest",
+        "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/latest",
         "re": "\/releases\/tag\/(?:v|V)?([\\d._]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BoyceLig/ClashR.For.Windows/releases/download/$version/ClashR.For.Windows.English.rar"
+                "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/$version/ClashR.for.Windows-$version-English.7z"
             }
         }
     }
