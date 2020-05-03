@@ -27,14 +27,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/NetchX/Netch/releases/download/v$version/Netch.x64-v$version.zip",
+                "url": "https://github.com/NetchX/Netch/releases/download/$version/Netch.x64-$version.zip",
                 "hash": {
                     "url": "https://github.com/NetchX/Netch/releases/latest",
                     "find": "$basename[\\S\\s]+?$sha256"
                 }
             },
             "32bit": {
-                "url": "https://github.com/NetchX/Netch/releases/download/v$version/Netch.x86-v$version.zip",
+                "url": "https://github.com/NetchX/Netch/releases/download/$version/Netch.x86-$version.zip",
                 "hash": {
                     "url": "https://github.com/NetchX/Netch/releases/latest",
                     "find": "$basename[\\S\\s]+?$sha256"
