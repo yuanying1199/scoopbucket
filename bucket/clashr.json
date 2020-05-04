@@ -10,7 +10,7 @@
         }
     },
     "extract_dir": "",
-    "persist": "resources/static/files/profiles",
+    "persist": "",
     "bin": "",
     "shortcuts": [
         [
