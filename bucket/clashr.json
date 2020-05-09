@@ -11,7 +11,12 @@
     },
     "extract_dir": "",
     "persist": "",
-    "bin": "",
+    "bin": [
+        [
+            "resources\\static\\files\\clash-win64.exe",
+            "clashr"
+        ]
+    ],
     "shortcuts": [
         [
             "ClashR for Windows.exe",
