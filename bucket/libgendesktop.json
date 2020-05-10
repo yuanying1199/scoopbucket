@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/libgenapps/LibgenDesktop/",
     "description": "Libgen Desktop",
-    "version": "1.3.5",
+    "version": "1.4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.64-bit.zip",
-            "hash": "E9B236CD6C11D4ED5D601DDEA108830B1AB466F6CCD77DF756A80C5167BAA7B2"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.0/LibgenDesktop.Portable.64-bit.zip",
+            "hash": "80ea6647045fbf9e216d16b7aa151c14498e274b662dea1485238524fd52c071"
         },
         "32bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.32-bit.zip",
-            "hash": "DE616772E83D85457C6CE46E434124102D11C02A0C12EEEE6802B21DAD6EBBBD"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.0/LibgenDesktop.Portable.32-bit.zip",
+            "hash": "b4df17fa6f09ee4cf1577efcc23a04d63f8b4984b37ff26219503f157877e250"
         }
     },
     "extract_dir": "",
@@ -21,9 +21,7 @@
         "}",
         "CreateFile 'libgen.config' '{}' "
     ],
-    "persist": [
-        "libgen.config"
-    ],
+    "persist": "libgen.config",
     "bin": "",
     "shortcuts": [
         [
