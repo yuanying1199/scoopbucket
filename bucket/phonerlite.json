@@ -3,7 +3,7 @@
     "version": "2.79",
     "description": "VoIP softphone",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "94938ee3efeb6d087226ccf16aa803ef939ae85b610ba9725830e609fd68ef66",
+    "hash": "7AEE206C6E272466351385C83D7F2AA05BF6FE5A2D62BACD9895430041AD84B8",
     "extract_dir": "",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
