@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/libgenapps/LibgenDesktop/",
     "description": "Libgen Desktop",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.0/LibgenDesktop.Portable.64-bit.zip",
-            "hash": "80ea6647045fbf9e216d16b7aa151c14498e274b662dea1485238524fd52c071"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.1/LibgenDesktop.Portable.64-bit.zip",
+            "hash": "3560006aa20d9be09b6b37cf818364e3b7e0862313a15eb7ce3e8840b2af7c47"
         },
         "32bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.0/LibgenDesktop.Portable.32-bit.zip",
-            "hash": "b4df17fa6f09ee4cf1577efcc23a04d63f8b4984b37ff26219503f157877e250"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.1/LibgenDesktop.Portable.32-bit.zip",
+            "hash": "2142efa5924cc0d47dc5751cd88892ca4e7dc1beb919c11739f562e94fe05c59"
         }
     },
     "extract_dir": "",
