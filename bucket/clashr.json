@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/BoyceLig/ClashR_for_Windows/",
     "description": "ClashR.For.Windows",
-    "version": "0.9.11_0.19.0.2",
+    "version": "0.10.3_0.20.01",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/0.9.11_0.19.0.2/ClashR.for.Windows-0.9.11_0.19.0.2-English.7z",
-            "hash": "3b91c9c1a7458047bb9943e7a48e58f46351596f6ff469f51947517146670794"
+            "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/0.10.3_0.20.01/ClashR.for.Windows-0.10.3_0.20.01-English.7z",
+            "hash": "4be5ef1679ec7ee552ea8db62d23ca46f1da9f0d10b4d968949ad96d5e112401"
         }
     },
     "extract_dir": "",
