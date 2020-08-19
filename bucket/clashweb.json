@@ -6,24 +6,6 @@
     "url": "https://github.com/lzdnico/ClashWeb/releases/download/ClashWeb1.6.5/ClashWebRelease1.6.5.7z",
     "hash": "f8f2202665e4fe37b53c19ca0783ecdbdb8404440948417808ad8d50092e0d76",
     "extract_dir": "ClashWebRelease1.6.5",
-    "architecture": {
-        "64bit": {
-            "pre_install": [
-                "Remove-Item \"$dir\\App\\clash-win64.exe\"",
-                "Remove-Item \"$dir\\App\\clash-win64-32.exe\"",
-                "Remove-Item \"$dir\\App\\clash-win64-32-ssr.exe\"",
-                "Move-Item \"$dir\\App\\clash-win64-ssr.exe\" \"$dir\\App\\clash-win64.exe\""
-            ]
-        },
-        "32bit": {
-            "pre_install": [
-                "Remove-Item \"$dir\\App\\clash-win64.exe\"",
-                "Remove-Item \"$dir\\App\\clash-win64-32.exe\"",
-                "Remove-Item \"$dir\\App\\clash-win64-ssr.exe\"",
-                "Move-Item \"$dir\\App\\clash-win64-32-ssr.exe\" \"$dir\\App\\clash-win64.exe\""
-            ]
-        }
-    },
     "persist": "Profile",
     "bin": [
         [

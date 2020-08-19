@@ -1,0 +1,36 @@
+{
+    "homepage": "https://github.com/Hunlongyu/ZY-Player/",
+    "description": "ZY Player",
+    "license": "MIT",
+    "version": "2.3.6",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.3.6/ZY-Player-Setup-2.3.6.exe#/dl.7z",
+            "hash": "sha512:10a973cd65b71540c53d07b6c045000a7619539441d7417d10b7b87ba70193e5d4d94d8eebb2383be915e80317e892d21d36dace397319ad01674bb88a358d91",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Unins*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "ZY Player.exe",
+            "ZY Player"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v$version/ZY-Player-Setup-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}
