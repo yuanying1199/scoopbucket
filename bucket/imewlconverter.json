@@ -1,14 +1,14 @@
 {
     "homepage": "https://github.com/studyzy/imewlconverter",
-    "description": "Ò»¿î¿ªÔ´Ãâ·ÑµÄÊäÈë·¨´Ê¿â×ª»»³ÌĞò",
+    "description": "ä¸€æ¬¾å¼€æºå…è´¹çš„è¾“å…¥æ³•è¯åº“è½¬æ¢ç¨‹åº",
     "license": "GPL-3.0",
     "version": "2.9.0",
     "url": "https://github.com/studyzy/imewlconverter/releases/download/v2.9.0/imewlconverter_Windows.zip",
     "hash": "96e4c2ffdec86cb61983435378fcf102e01f6a27e24b6f365f623f5fdf9a890a",
     "shortcuts": [
         [
-            "ÉîÀ¶´Ê¿â×ª»».exe",
-            "ÉîÀ¶´Ê¿â×ª»»"
+            "æ·±è“è¯åº“è½¬æ¢.exe",
+            "æ·±è“è¯åº“è½¬æ¢"
         ]
     ],
     "checkver": "github",
