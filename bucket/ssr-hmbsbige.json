@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows/",
     "description": "ShadowsocksR-Windows Client by HMBSbige",
-    "version": "5.1.9",
+    "version": "5.1.10",
     "license": "MIT",
-    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-net48-5.1.9.zip",
-    "hash": "4260189395ee3dac6431c372981d8774794c832b220bb79d9b02dcc0a672e385",
+    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z",
+    "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
         "    if (!(Test-Path \"$persist_dir\\$name\")) {",
@@ -28,7 +28,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-net48-$version.zip",
+        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-netcore-$version.7z",
         "hash": {
             "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
             "find": "$basename[\\S\\s]+?$sha256"
