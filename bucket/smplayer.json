@@ -24,6 +24,7 @@
     ],
     "persist": [
         "mpv\\youtube-dl.exe",
+        "mpv\\portable_config",
         "tv.m3u8",
         "radio.m3u8",
         "favorites.m3u8",
@@ -35,7 +36,7 @@
     ],
     "bin": [
         "smplayer.exe",
-        "mpv\\youtube-dl.exe"
+        "mpv\\mpv.exe"
     ],
     "shortcuts": [
         [

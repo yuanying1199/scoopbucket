@@ -9,7 +9,7 @@
             "hash": "fdf9208e3b82443424c8b57d5f8e40e2dfee4c227d8e9bb282566303df3cfbdb"
         }
     },
-    "pre_install": "Rename-Item @(Get-ChildItem $dir\\clash-*.exe)[0] $dir\\clash.exe",
+    "pre_install": "Rename-Item @(Get-ChildItem $dir\\clash-*.exe)[0] $dir\\clashr.exe",
     "bin": "clashr.exe",
     "persist": "",
     "checkver": {
