@@ -1,36 +1,25 @@
 {
-    "homepage": "https://github.com/BoyceLig/ClashR_for_Windows/",
+    "homepage": "https://github.com/BROBIRD/clash/",
     "description": "ClashR.For.Windows",
-    "version": "0.10.3_0.20.01",
+    "version": "1.0.0-R",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/0.10.3_0.20.01/ClashR.for.Windows-0.10.3_0.20.01-English.7z",
-            "hash": "4be5ef1679ec7ee552ea8db62d23ca46f1da9f0d10b4d968949ad96d5e112401"
+            "url": "https://github.com/BROBIRD/clash/releases/download/v1.0.0-R/clash-windows-amd64-v1.0.0-R.zip",
+            "hash": "fdf9208e3b82443424c8b57d5f8e40e2dfee4c227d8e9bb282566303df3cfbdb"
         }
     },
-    "extract_dir": "",
+    "pre_install": "Rename-Item @(Get-ChildItem $dir\\clash-*.exe)[0] $dir\\clash.exe",
+    "bin": "clashr.exe",
     "persist": "",
-    "bin": [
-        [
-            "resources\\static\\files\\clash-win64.exe",
-            "clashr"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "ClashR for Windows.exe",
-            "ClashR"
-        ]
-    ],
     "checkver": {
-        "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/latest",
-        "re": "/releases/tag/(?:v|V)?([\\d._]+)"
+        "url": "https://github.com/BROBIRD/clash/releases/latest",
+        "re": "/releases/tag/v([\\d.]+[\\w-_]+)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BoyceLig/ClashR_for_Windows/releases/download/$version/ClashR.for.Windows-$version-English.7z"
+                "url": "https://github.com/BROBIRD/clash/releases/download/v$version/clash-windows-amd64-v$version.zip"
             }
         }
     }
