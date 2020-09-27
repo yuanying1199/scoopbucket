@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z",
     "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718",
+    "extract_dir": "ShadowsocksR",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
         "    if (!(Test-Path \"$persist_dir\\$name\")) {",
