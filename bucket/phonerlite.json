@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "http://www.phonerlite.de/download_en.htm",
-        "re": "<td>([\\d.]+)</td>"
+        "re": "<td>([\\d.]+)\\s*</td>"
     },
     "autoupdate": {
         "url": "http://www.phoner.de/PhonerLite.zip"
