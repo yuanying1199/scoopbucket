@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.meshcommander.com/meshcommander",
     "description": "The ultimate open source Intel® AMT management console",
-    "version": "0.8.8",
+    "version": "0.8.9",
     "url": "http://info.meshcentral.com/downloads/mdtk/MeshCommander.msi",
-    "hash": "102e17c04ab674b786849912eec8c74cf7fad4c7bd47e7357070fa300eee601b",
+    "hash": "f288f3b60e393632de3dbd6999b637a27be3741896d6e23f150e1abad959217b",
     "extract_dir": "Open Source/MeshCommander",
     "shortcuts": [
         [
