@@ -4,7 +4,7 @@
     "version": "5.2.2",
     "license": "MIT",
     "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.2/ShadowsocksR-5.2.2.7z",
-    "hash": "050afba8775d9700aaac13c476a4b2b1db5aaf0a39d032edfc1527ba5d8065a4",
+    "hash": "60cdb48dacd51bd60eae966f8de172a3370496467fbee2d2dfdff6f11eb56643",
     "extract_dir": "ShadowsocksR",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
@@ -32,7 +32,7 @@
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
         "hash": {
             "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
-            "find": "$basename[\\S\\s]+?$sha256"
+            "find": "$basename</sub>[\\S\\s]+?$sha256"
         }
     }
 }
