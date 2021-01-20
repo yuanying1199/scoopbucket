@@ -1,9 +1,9 @@
 {
     "homepage": "https://guihet.com/blackbird-player.html",
     "description": "IPTV Player",
-    "version": "1.8.10",
-    "url": "https://bug.imfast.io/BlackBird-Player-1.8.10.zip",
-    "hash": "D5DAACF05B85B2A226217DB6D148A719303E147C3A496050558F4ECD8B15B983",
+    "version": "1.8.12",
+    "url": "https://pan.imying.win/soft/scoop/BlackBird-Player-1.8.12.7z",
+    "hash": "e6f659329a06d963f8fec3b9eb627b42586055728e7fe0546d34a28667562f4b",
     "extract_dir": "BlackBird-Player",
     "shortcuts": [
         [
@@ -20,6 +20,6 @@
         "re": " ([\\d.]+)</span></a></li>"
     },
     "autoupdate": {
-        "url": "https://bug.imfast.io/BlackBird-Player-$version.zip"
+        "url": "https://pan.imying.win/soft/scoop/BlackBird-Player-$version.7z"
     }
 }
