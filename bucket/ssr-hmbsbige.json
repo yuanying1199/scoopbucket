@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows/",
     "description": "ShadowsocksR-Windows Client by HMBSbige",
-    "version": "5.2.3",
+    "version": "5.2.4",
     "license": "MIT",
-    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.3/ShadowsocksR-5.2.3.7z",
-    "hash": "161c93d6d08fdb9e88ff6f804fe6214ca693d7df8bef8f19efd2fd598ae2fddd",
+    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.4/ShadowsocksR-5.2.4.7z",
+    "hash": "b46f1e7fd468ddaaf9cdbd1b4c7caa8b919802fd54632bde0c7f8bd97ed69fea",
     "extract_dir": "ShadowsocksR",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
