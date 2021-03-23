@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/lzdnico/ClashWeb/",
     "description": "Another clash gui for windows",
-    "version": "1.6.8",
+    "version": "2.0.0",
     "license": "GPL-3.0",
-    "url": "https://github.com/lzdnico/ClashWeb/releases/download/ClashWeb1.6.8/ClashWebRelease1.6.8.7z",
-    "hash": "e81d7994342ec094ba8fd0b0213bbaa99001e4f53779a35810beedc5bfddc86b",
-    "extract_dir": "ClashWebRelease1.6.8",
+    "url": "https://github.com/lzdnico/ClashWeb/releases/download/ClashWeb2.0.0/ClashWebRelease2.0.0.7z",
+    "hash": "10c7c96b7c0ff8e8241f4e3ef5ce40f5b79142e90612f9703444915bb9f31b05",
+    "extract_dir": "ClashWebRelease2.0.0",
     "persist": "Profile",
     "bin": [
         [
