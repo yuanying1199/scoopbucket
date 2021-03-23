@@ -1,16 +1,16 @@
 {
     "homepage": "http://sdcc.sourceforge.net/",
     "description": "Small Device C Compiler",
-    "version": "4.0.0",
+    "version": "4.1.0",
     "license": "GPL",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/4.0.0/sdcc-4.0.0-x64-setup.exe#/dl.7z",
-            "hash": "sha1:0d3a32d0db59d1426c16fb9036b05d2c5657b594"
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win64/4.1.0/sdcc-4.1.0-x64-setup.exe#/dl.7z",
+            "hash": "sha1:3193fbb5f77091a7bb26bd1fa45da111b65f087e"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/4.0.0/sdcc-4.0.0-setup.exe#/dl.7z",
-            "hash": "sha1:7bcbb5fe178419dddca566630282a976c65761ae"
+            "url": "https://sourceforge.net/projects/sdcc/files/sdcc-win32/4.1.0/sdcc-4.1.0-setup.exe#/dl.7z",
+            "hash": "sha1:d186f8f4b0e97f53de56285f692c58863cf8d6a5"
         }
     },
     "env_add_path": "bin",
