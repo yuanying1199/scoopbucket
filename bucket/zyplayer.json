@@ -2,11 +2,11 @@
     "homepage": "https://github.com/Hunlongyu/ZY-Player/",
     "description": "ZY Player",
     "license": "MIT",
-    "version": "2.7.6",
+    "version": "2.8.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.7.6/ZY-Player-Setup-2.7.6.exe#/dl.7z",
-            "hash": "sha512:e336f862e89884611298a095e0965f229004734bd74d28e8a6e6950a9d5f7ca2750048ed980064c365b766e3a786e199ab57a2588493d7815e9cae27cb5f6dea",
+            "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.8.4/ZY-Player-Setup-2.8.4.exe#/dl.7z",
+            "hash": "sha512:9fa18243f9bdf0b71cdec39bc468a1b7321c184f41473bf11327d8c93b0e4f776b923666d84f4b12e38ffcf89cb3ecbc0fcefead1cba17576cc97b75e655bdf1",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
