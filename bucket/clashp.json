@@ -17,11 +17,9 @@
                 "",
                 "wintun\\bin\\amd64"
             ],
-            "bin": [
-                [
-                    "clashp.exe",
-                    "clashp"
-                ]
+            "pre_install": [
+                "Rename-Item \"$dir\\clash-windows-amd64.exe\" \"$dir\\clashp.exe\"",
+                "Remove-Item \"$dir\\wintun\" -Force -Recurse"
             ]
         },
         "32bit": {
@@ -37,17 +35,17 @@
                 "",
                 "wintun\\bin\\x86"
             ],
-            "bin": [
-                [
-                    "clashp.exe",
-                    "clashp"
-                ]
+            "pre_install": [
+                "Rename-Item \"$dir\\clash-windows-386.exe\" \"$dir\\clashp.exe\"",
+                "Remove-Item \"$dir\\wintun\" -Force -Recurse"
             ]
         }
     },
-    "pre_install": [
-        "Rename-Item \"$dir\\clash-windows-*.exe\" \"$dir\\clashp.exe\"",
-        "Remove-Item \"$dir\\wintun\" -Force -Recurse"
+    "bin": [
+        [
+            "clashp.exe",
+            "clashp"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/Dreamacro/clash/releases/tag/premium",
