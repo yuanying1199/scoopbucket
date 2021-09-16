@@ -1,16 +1,16 @@
 {
-    "version": "2021.09.07",
+    "version": "2021.09.15",
     "description": "Clash Premium with Wintun",
     "homepage": "https://github.com/Dreamacro/clash",
     "license": "Freeware+GPL-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2021.09.07.zip",
+                "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2021.09.15.zip",
                 "https://www.wintun.net/builds/wintun-0.13.zip"
             ],
             "hash": [
-                "aeac0a7cf85d475cc5dee9db6bd7db0efecff40235cf44c484fb41a3b79f4d90",
+                "6892509a3ab6706150a5adba04e73cfea3b66a9239cfc7be911eb4048e44917c",
                 "34afe7d0de1fdb781af3defc0a75fd8c97daa756279b42dd6be6a1bd8ccdc7f0"
             ],
             "extract_dir": [
@@ -24,11 +24,11 @@
         },
         "32bit": {
             "url": [
-                "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2021.09.07.zip",
+                "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2021.09.15.zip",
                 "https://www.wintun.net/builds/wintun-0.13.zip"
             ],
             "hash": [
-                "653175f88f8cf9e85c4041729ca95ff73aa3172a38f2cfee820bc93a45e8acff",
+                "3f7e274e03c4b79346c6b85e02ecf1b5e40affc5c8dfe2fe22f1fdd24ae5f21c",
                 "34afe7d0de1fdb781af3defc0a75fd8c97daa756279b42dd6be6a1bd8ccdc7f0"
             ],
             "extract_dir": [
