@@ -1,17 +1,17 @@
 {
     "homepage": "https://github.com/tindy2013/subconverter/",
     "description": "Utility to convert between various subscription format",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "license": "GPL-3.0",
     "extract_dir": "subconverter",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tindy2013/subconverter/releases/download/v0.7.0/subconverter_win64.7z",
-            "hash": "98aa355751f59739c688172566635ee8451c340d56f38410e03a56648a7cee19"
+            "url": "https://github.com/tindy2013/subconverter/releases/download/v0.7.1/subconverter_win64.7z",
+            "hash": "8dc63ecd02c63d43de636c556dced256dec53ba54160bf168edbc71b0e30b55d"
         },
         "32bit": {
-            "url": "https://github.com/tindy2013/subconverter/releases/download/v0.7.0/subconverter_win64.7z",
-            "hash": "98aa355751f59739c688172566635ee8451c340d56f38410e03a56648a7cee19"
+            "url": "https://github.com/tindy2013/subconverter/releases/download/v0.7.1/subconverter_win64.7z",
+            "hash": "8dc63ecd02c63d43de636c556dced256dec53ba54160bf168edbc71b0e30b55d"
         }
     },
     "persist": [
