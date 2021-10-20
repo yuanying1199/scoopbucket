@@ -2,9 +2,9 @@
     "homepage": "https://github.com/troyeguo/koodo-reader",
     "description": "A modern ebook manager and reader with sync and backup capacities",
     "license": "GNU Affero General Public License v3.0",
-    "version": "1.3.1",
-    "url": "https://sourceforge.net/projects/koodo-reader/files/v1.3.1/Koodo-Reader-1.3.1-Win.7z",
-    "hash": "sha1:d3e392cb90e3142d74dc8945384d0e3c3a2235c7",
+    "version": "1.3.2",
+    "url": "https://sourceforge.net/projects/koodo-reader/files/v1.3.2/Koodo-Reader-1.3.2-Win.7z",
+    "hash": "sha1:f56b037306dc7bbafd4d0b007d88262df43ce8e2",
     "shortcuts": [
         [
             "Koodo Reader.exe",
