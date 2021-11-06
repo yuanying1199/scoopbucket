@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.smplayer.info/",
     "description": "A free media player with built-in codecs.",
-    "version": "21.8.0",
+    "version": "21.10.0",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.8.0/smplayer-portable-21.8.0.0-x64.7z",
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-x64.7z",
             "extract_dir": "smplayer-portable",
-            "hash": "sha1:fc3a4f384cf3fb5733b7dd784c467460451e4b92"
+            "hash": "sha1:8629df9cdd13120a0b6d89ec4e8e5ef20a92e743"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.8.0/smplayer-portable-21.8.0.0-win32.7z",
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-win32-qt5.6.7z",
             "extract_dir": "smplayer-portable",
-            "hash": "sha1:e772bb17060ab145c50b2aa351a4012e889f122f"
+            "hash": "sha1:dd14d64e1917f19e294fcd9ce35bb63c59dd379c"
         }
     },
     "pre_install": [
@@ -52,11 +52,11 @@
         "architecture": {
             "64bit": {
                 "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
-                "extract_dir": "smplayer-portable-$version.0"
+                "extract_dir": "smplayer-portable"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-win32.7z",
-                "extract_dir": "smplayer-portable-$version.0"
+                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-win32-qt5.6.7z",
+                "extract_dir": "smplayer-portable"
             }
         }
     }
