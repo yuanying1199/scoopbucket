@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.smplayer.info/",
     "description": "A free media player with built-in codecs.",
-    "version": "21.10.0",
+    "version": "22.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-x64.7z",
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/22.2.0/smplayer-portable-22.2.0.0-x64.7z",
             "extract_dir": "smplayer-portable",
-            "hash": "sha1:8629df9cdd13120a0b6d89ec4e8e5ef20a92e743"
+            "hash": "sha1:15c6244abfe2f6454485c7fb00b1604749d55eba"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-win32-qt5.6.7z",
+            "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/22.2.0/smplayer-portable-22.2.0.0-win32-qt5.6.7z",
             "extract_dir": "smplayer-portable",
-            "hash": "sha1:dd14d64e1917f19e294fcd9ce35bb63c59dd379c"
+            "hash": "sha1:171ebf05d55c3705b4d838cebe0015404f698896"
         }
     },
     "pre_install": [
