@@ -1,0 +1,38 @@
+{
+    "version": "1.0.1",
+    "description": "Hysteria is a feature-packed network utility optimized for networks of poor quality",
+    "homepage": "https://github.com/HyNetwork/hysteria",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HyNetwork/hysteria/releases/download/v1.0.1/hysteria-tun-windows-6.0-amd64.exe",
+            "hash": "87566beec4c7de0bfe1303ea35ca5c528814afa07f7fcbe77ffce2ad2e3427ab"
+        },
+        "32bit": {
+            "url": "https://github.com/HyNetwork/hysteria/releases/download/v1.0.1/hysteria-tun-windows-6.0-386.exe",
+            "hash": "0c057658df62ddc5844a53293a4a353b971515c27573ddda0458831eecc8176f"
+        }
+    },
+    "pre_install": [
+        "function CreateFile ($name, $value = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        Set-Content \"$dir\\$name\" $value -Encoding Ascii",
+        "    }",
+        "}",
+        "CreateFile 'config.json' ",
+        "Rename-Item \"$dir\\hysteria-tun-windows-*.exe\" \"$dir\\hysteria.exe\""
+    ],
+    "persist": "config.json",
+    "bin": "hysteria.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-tun-windows-6.0-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-tun-windows-6.0-386.exe"
+            }
+        }
+    }
+}
