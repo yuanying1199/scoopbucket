@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.progdvb.com/index/progtv/progtv-win",
     "description": "watching TV and listening to radio channels over Internet",
-    "version": "2.18.7",
+    "version": "2.18.8",
     "license": "Freeware",
-    "url": "http://files.progdvb.com/progtv_win/ProgTV2.18.7.x86.Std.exe#/dl.7z",
-    "hash": "e30dfb27b7a5bcaf5f8dfb17ab99b12d99d7149ce00376100292bf23f267a777",
+    "url": "http://files.progdvb.com/progtv_win/ProgTV2.18.8.x86.Std.exe#/dl.7z",
+    "hash": "a8ce323d15780c2e2bf26cd24df922b20c7569852e0279279d61cb9b95f25698",
     "shortcuts": [
         [
             "ProgTV2.exe",
