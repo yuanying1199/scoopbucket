@@ -1,17 +1,17 @@
 {
-    "version": "2022.04.17",
+    "version": "2022.05.18",
     "description": "Clash Premium",
     "homepage": "https://github.com/Dreamacro/clash",
     "license": "Freeware+GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2022.04.17.zip",
-            "hash": "776bd133be2fa3df8787ce0f5c149de69a6356a8f733c5095ecb16951d598372",
+            "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2022.05.18.zip",
+            "hash": "b68829611234a6e2fd041895f2ca7af10d8702b06f66458f2a471849ef105c4b",
             "pre_install": "Rename-Item \"$dir\\clash-windows-amd64.exe\" \"$dir\\clashp.exe\""
         },
         "32bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2022.04.17.zip",
-            "hash": "523d1c2c3dbce111865baaf4098aa6211ac29032bb878c9c538a549f9d29640f",
+            "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2022.05.18.zip",
+            "hash": "74275d1777f9b685cad55f8510024aa66d93e924be45c79e2388d0d3a50e477c",
             "pre_install": "Rename-Item \"$dir\\clash-windows-386.exe\" \"$dir\\clashp.exe\""
         }
     },
