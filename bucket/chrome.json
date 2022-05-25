@@ -27,7 +27,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://cdn.jsdelivr.net/gh/SukkaLab/chrome@gh-pages/api/chrome.min.xml",
+        "url": "https://raw.githubusercontent.com/SukkaLab/chrome/gh-pages/api/chrome.min.xml",
         "regex": "<stable32><version>.+?release2/chrome/(?<32>[\\w-]+?)_(?<version>[\\d\\.]+?)/</version>.+?<stable64><version>.+?release2/chrome/(?<64>[\\w-]+?)_"
     },
     "autoupdate": {
@@ -35,14 +35,14 @@
             "64bit": {
                 "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://cdn.jsdelivr.net/gh/SukkaLab/chrome@gh-pages/api/chrome.min.xml",
+                    "url": "https://raw.githubusercontent.com/SukkaLab/chrome/gh-pages/api/chrome.min.xml",
                     "xpath": "/chromechecker/stable64/size"
                 }
             },
             "32bit": {
                 "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://cdn.jsdelivr.net/gh/SukkaLab/chrome@gh-pages/api/chrome.min.xml",
+                    "url": "https://raw.githubusercontent.com/SukkaLab/chrome/gh-pages/api/chrome.min.xml",
                     "xpath": "/chromechecker/stable32/size"
                 }
             }
