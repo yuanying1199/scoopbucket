@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.phonerlite.de/download_en.htm",
-    "version": "3.04",
+    "version": "3.05",
     "description": "VoIP softphone",
     "url": "http://www.phoner.de/PhonerLite.zip",
-    "hash": "3049d7dc728cf06f0ec330125d4c94ebd088a692e6c6c3a9f95dcb5279fea57f",
+    "hash": "1c56050ccd884d8a678623d39048bd7d1ba0968ecacebb3edb503d11898e6eed",
     "extract_dir": "",
     "pre_install": [
         "function CreateFile ($name, $value = $null) {",
