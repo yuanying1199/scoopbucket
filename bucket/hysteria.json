@@ -20,7 +20,7 @@
         "    }",
         "}",
         "CreateFile 'config.json' ",
-        "Rename-Item \"$dir\\hysteria-tun-windows-*.exe\" \"$dir\\hysteria.exe\""
+        "Rename-Item \"$dir\\hysteria-windows-*.exe\" \"$dir\\hysteria.exe\""
     ],
     "persist": "config.json",
     "bin": "hysteria.exe",
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-tun-windows-6.0-amd64.exe"
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-amd64.exe"
             },
             "32bit": {
-                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-tun-windows-6.0-386.exe"
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-386.exe"
             }
         }
     }
