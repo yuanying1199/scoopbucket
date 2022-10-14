@@ -2,9 +2,9 @@
     "homepage": "https://github.com/4gray/iptvnator",
     "description": "Cross-platform IPTV player",
     "license": "MIT",
-    "version": "0.10.0",
-    "url": "https://github.com/4gray/iptvnator/releases/download/v0.10.0/iptvnator-Setup-0.10.0.exe#/dl.7z",
-    "hash": "sha512:8404dff7ece679bcf5d249d048e1312d1dda7039031755dec2f047864a242c62ae4a77cca560354a1cb26274a93371005f0550288045d89217b84e26e1ea3ccc",
+    "version": "0.11.1",
+    "url": "https://github.com/4gray/iptvnator/releases/download/v0.11.1/iptvnator-Setup-0.11.1.exe#/dl.7z",
+    "hash": "sha512:89c3e67e5528cb2392a229c3f7fdba5bb1e270e65d787b5154698ae78858372ea1f329f2a4c3384c899181fbf4ee62ec9c7e8982e67c1ab77ebfcc8b2fe20df6",
     "architecture": {
         "64bit": {
             "installer": {
