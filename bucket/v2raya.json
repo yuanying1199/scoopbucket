@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/v2rayA/v2rayA/",
     "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel",
-    "version": "2.0.5",
+    "version": "2.2.4",
     "license": "GNU AGPLv3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/v2rayA/v2rayA/releases/download/v2.0.5/v2raya_windows_x64_2.0.5.exe",
-            "hash": "57fe2ad4fd2f23420014ca36c7ee0f5e8cf5ac2f24251b247cb58a1585bae8ce",
+            "url": "https://github.com/v2rayA/v2rayA/releases/download/v2.2.4/v2raya_windows_x64_2.2.4.exe",
+            "hash": "0334bb2d099bda9e3f215e0bd51c8f342beaa4d9ba1c1c05f88fcd6d5b359fc8",
             "pre_install": "Rename-Item \"$dir\\v2raya_windows_x64_$version.exe\" \"$dir\\v2raya.exe\""
         }
     },
