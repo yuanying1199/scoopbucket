@@ -1,0 +1,26 @@
+{
+    "version": "0.25.1",
+    "homepage": "https://github.com/smallstep/cli",
+    "license": "Apache-2.0",
+    "description": "Crypto toolkit for working with X.509, OAuth, JWT, OATH OTP, etc.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/smallstep/cli/releases/download/v0.25.1/step_windows_0.25.1_amd64.zip",
+            "bin": "step_0.25.1/bin/step.exe",
+            "hash": "7eb4f98026c5766431e4ff22b24a4b8cff7e29917ae92203d060a7aa9dee35c9"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/smallstep/cli/releases/download/v$version/step_windows_$version_amd64.zip",
+                "bin": "step_$version/bin/step.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "find": "^$sha256 $basename$"
+        }
+    }
+}
