@@ -1,17 +1,17 @@
 {
-    "version": "1.18.0",
+    "version": "1.18.1",
     "description": "ClashMeta",
     "homepage": "https://github.com/MetaCubeX/mihomo",
     "license": "MIT license",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.18.0/mihomo-windows-amd64-v1.18.0.zip",
-            "hash": "ab8b25366867d178f333c0de21c7b270b066f55a5506e5a8370163ae5fc6aa4a",
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.18.1/mihomo-windows-amd64-v1.18.1.zip",
+            "hash": "757b0c0b516e895d64f309b41ce8a5cfe88e784831a1d933f0bf88eadab3caef",
             "pre_install": "Rename-Item \"$dir\\mihomo-windows-amd64.exe\" \"$dir\\clash.exe\""
         },
         "32bit": {
-            "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.18.0/mihomo-windows-386-v1.18.0.zip",
-            "hash": "8c85b052ca549137a07837312be2a06d67ea19e0769249c481e82481c86c9d6b",
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.18.1/mihomo-windows-386-v1.18.1.zip",
+            "hash": "664cb12a826dad6710e4b6c13c56d809888ec1d41e2e2ef208ac1e26574300e0",
             "pre_install": "Rename-Item \"$dir\\mihomo-windows-386.exe\" \"$dir\\clash.exe\""
         }
     },
